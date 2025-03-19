@@ -1,0 +1,1 @@
+print(len(input("1st string: ")) == len(input("2nd string: ")))

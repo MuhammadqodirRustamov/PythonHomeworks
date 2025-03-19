@@ -1,0 +1,1 @@
+print(str(round(float(input("Enter a number: ")), 2)))

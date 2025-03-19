@@ -1,0 +1,1 @@
+print(input("First string: ") == input("Second string: "))

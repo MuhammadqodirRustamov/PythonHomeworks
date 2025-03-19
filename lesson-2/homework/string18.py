@@ -1,0 +1,5 @@
+sentence = input("Enter a sentence: ")
+start = input("Starts with: ")
+end = input("Ends with: ")
+list = sentence.split()
+print(list[0] == start and list[-1] == end)

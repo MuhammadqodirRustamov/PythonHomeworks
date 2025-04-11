@@ -24,7 +24,7 @@ class TaskManager:
 
     def __load_tasks(self):
 
-        with open(self.file_name) as file:
+        with open(self.file_name, "w+") as file:
             data_rows = file.readlines()
 
 

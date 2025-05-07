@@ -46,7 +46,7 @@ class DataFetcher:
     def get_random_movie_by_genre(self, genre):
         movies = self.get_movies_by_genre(genre)
         if len(movies) == 0:
-            return None
+             return None
         random_movie = random.choice(movies)
         return random_movie
 
